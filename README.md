@@ -19,18 +19,7 @@ Packaging environment
     JSONObject responseMessage = ctrl.Validate(XML_test);
     
     // get response massage in JSONObject (JSON Simple lib)
-    JSONObject responseMessage = ctrl.Validate(XML_test);
-    
-## Deployment Step 
-- Clone XML Validator branch 3.1-sit 
-- Edit sourcecode > test , test result > commit > push > pull > into branch 3.1-sit
-- Merge request from 3.1-sit to 3.1 with test resul and detail
-- Clone Java Java-DocumentIndexer branch 3.1 
-- replace newver XML validator in Document Indexer 
-- Compile Document Indexer via Eclipse
-- Deploy to UAT 
-    
-
+    JSONObject responseMessage = ctrl.Validate(XML_test);   
 
 ## Changelog
 
