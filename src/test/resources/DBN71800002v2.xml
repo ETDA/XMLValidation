@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rsm:DebitCreditNote_CrossIndustryInvoicf 
+    xmlns:ram="urn:etda:uncefact:data:standard:DebitCreditNote_ReusableAggregateBusinessInformationEntity:2"
+    xmlns:rsm="urn:etda:uncefact:data:standard:DebitCreditNote_CrossIndustryInvoice:2"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="urn:etda:uncefact:data:standard:DebitCreditNote_CrossIndustryInvoice:2">
+    <rsm:ExchangedDocumentContext>
+      <ram:GuidelineSpecifiedDocumentContextParameter>
+        <ram:ID schemeAgencyID="ETDA" schemeVersionID="v2.0">ER3-2560</ram:ID>
+      </ram:GuidelineSpecifiedDocumentContextParameter>
+    </rsm:ExchangedDocumentContext>
+    <rsm:ExchangedDocument>
+      <ram:ID>DBN71800002</ram:ID>
+      <ram:Name>ใบเพิ่มหนี้</ram:Name>
+      <ram:TypeCode>80</ram:TypeCode>
+      <ram:IssueDateTime>2018-04-26T00:00:00.000</ram:IssueDateTime>
+      <ram:Purpose>มีการเพิ่มราคาค่าสินค้า (สินค้าเกินกว่าจำนวนที่ตกลงกัน)</ram:Purpose >
+      <ram:PurposeCode>DBNG01</ram:PurposeCode >
+      <ram:CreationDateTime>2018-04-26T00:00:00.000</ram:CreationDateTime>
+      
+    </rsm:ExchangedDocument>
+    <rsm:SupplyChainTradeTransaction>
+        <ram:ApplicableHeaderTradeAgreement>
+            <ram:SellerTradeParty>
+				<ram:Name>etax4_outlook</ram:Name>
+                <ram:SpecifiedTaxRegistration>
+                    <ram:ID schemeID="TXID" >010553802514300002</ram:ID>
+                </ram:SpecifiedTaxRegistration>
+              <ram:DefinedTradeContact>
+            <ram:EmailURIUniversalCommunication> 
+ <ram:URIID>etax4@outlook.com</ram:URIID> 
+ </ram:EmailURIUniversalCommunication> 
+
+           
+</ram:DefinedTradeContact>
+                                 
+              <ram:PostalTradeAddress>
+                    <ram:PostcodeCode>11111</ram:PostcodeCode>
+                <ram:LineOne>ที่อยู่สำหรับทดสอบ</ram:LineOne>
+                
+                <ram:CityName>8104</ram:CityName>
+                <ram:CitySubDivisionName>810401</ram:CitySubDivisionName>
+                <ram:CountryID schemeID="3166-1 alpha-2">TH</ram:CountryID>
+                <ram:CountrySubDivisionID>81</ram:CountrySubDivisionID>
+                <ram:BuildingNumber>11/111</ram:BuildingNumber>
+              </ram:PostalTradeAddress>
+            </ram:SellerTradeParty>
+            <ram:BuyerTradeParty>
+                <ram:Name>ชื่อผู้ซื้อ</ram:Name>
+                <ram:SpecifiedTaxRegistration>
+                    <ram:ID schemeID="TXID" >000000000000000000</ram:ID>
+                </ram:SpecifiedTaxRegistration>
+              <ram:DefinedTradeContact>
+            <ram:EmailURIUniversalCommunication> 
+ <ram:URIID>domain-test@spfdkim.tools-uat.teda.th</ram:URIID> 
+ </ram:EmailURIUniversalCommunication> 
+
+           
+</ram:DefinedTradeContact>
+                                 
+             <ram:PostalTradeAddress>
+                    <ram:PostcodeCode>22222</ram:PostcodeCode>
+               <ram:LineOne>ที่อยู่ผู้ซื้อ </ram:LineOne>
+               
+               <ram:CityName>7107</ram:CityName>
+               <ram:CitySubDivisionName>710701</ram:CitySubDivisionName>
+               <ram:CountryID schemeID="3166-1 alpha-2">TH</ram:CountryID>
+               <ram:CountrySubDivisionID>71</ram:CountrySubDivisionID>
+               <ram:BuildingNumber>22/222</ram:BuildingNumber>
+             </ram:PostalTradeAddress>
+            </ram:BuyerTradeParty>
+			        <ram:AdditionalReferencedDocument>
+				<ram:IssuerAssignedID>INV71600001</ram:IssuerAssignedID>
+				<ram:IssueDateTime>2018-04-26T00:00:00.000</ram:IssueDateTime>
+				<ram:ReferenceTypeCode>388</ram:ReferenceTypeCode>
+			</ram:AdditionalReferencedDocument>
+        </ram:ApplicableHeaderTradeAgreement>
+        <ram:ApplicableHeaderTradeDelivery>
+        <ram:ShipToTradeParty>
+				<ram:DefinedTradeContact>
+					
+				</ram:DefinedTradeContact>
+        </ram:ShipToTradeParty>
+        </ram:ApplicableHeaderTradeDelivery>
+        <ram:ApplicableHeaderTradeSettlement>
+            <ram:InvoiceCurrencyCode listID="ISO 4217 3A">THB</ram:InvoiceCurrencyCode>
+            <ram:ApplicableTradeTax>
+                <ram:TypeCode>VAT</ram:TypeCode>
+                <ram:CalculatedRate>7</ram:CalculatedRate>
+                <ram:BasisAmount>10000</ram:BasisAmount>
+               <ram:CalculatedAmount>700</ram:CalculatedAmount>
+            </ram:ApplicableTradeTax>
+          
+          
+          <ram:SpecifiedTradeSettlementHeaderMonetarySummation>
+				      <ram:OriginalInformationAmount>10000</ram:OriginalInformationAmount>
+				      <ram:LineTotalAmount>20000</ram:LineTotalAmount>
+				      <ram:DifferenceInformationAmount>10000</ram:DifferenceInformationAmount>
+              <ram:TaxBasisTotalAmount>10000</ram:TaxBasisTotalAmount>
+              <ram:TaxTotalAmount>700</ram:TaxTotalAmount>
+              <ram:GrandTotalAmount>10700</ram:GrandTotalAmount>                
+            </ram:SpecifiedTradeSettlementHeaderMonetarySummation>
+        </ram:ApplicableHeaderTradeSettlement>
+		            <ram:IncludedSupplyChainTradeLineItem>
+            <ram:AssociatedDocumentLineDocument>
+                <ram:LineID>1</ram:LineID>
+            </ram:AssociatedDocumentLineDocument>
+            <ram:SpecifiedTradeProduct>
+              
+                
+              <ram:Name>สินค้าทดสอบ</ram:Name>
+            </ram:SpecifiedTradeProduct>
+            <ram:SpecifiedLineTradeAgreement>
+                <ram:GrossPriceProductTradePrice>
+                    <ram:ChargeAmount>10000</ram:ChargeAmount>
+                </ram:GrossPriceProductTradePrice>
+            </ram:SpecifiedLineTradeAgreement>
+            <ram:SpecifiedLineTradeDelivery>
+                <ram:BilledQuantity unitCode="AS">1</ram:BilledQuantity>
+            </ram:SpecifiedLineTradeDelivery>
+            <ram:SpecifiedLineTradeSettlement>
+              
+              <ram:SpecifiedTradeSettlementLineMonetarySummation>
+                    <ram:NetLineTotalAmount>10000</ram:NetLineTotalAmount>
+                    <ram:NetIncludingTaxesLineTotalAmount>10700</ram:NetIncludingTaxesLineTotalAmount>
+                </ram:SpecifiedTradeSettlementLineMonetarySummation>
+            </ram:SpecifiedLineTradeSettlement>
+        </ram:IncludedSupplyChainTradeLineItem>
+    </rsm:SupplyChainTradeTransaction>
+</rsm:DebitCreditNote_CrossIndustryInvoicf>

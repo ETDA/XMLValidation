@@ -1,0 +1,112 @@
+<rsm:TaxInvoice_CrossIndustryInvoice 
+xmlns:ram="urn:etda:uncefact:data:standard:TaxInvoice_ReusableAggregateBusinessInformationEntity:2"
+xmlns:rsm="urn:etda:uncefact:data:standard:TaxInvoice_CrossIndustryInvoice:2"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="urn:etda:uncefact:data:standard:TaxInvoice_CrossIndustryInvoice:2 file:../data/standard/TaxInvoice_CrossIndustryInvoice_2p0.xsd">
+<rsm:ExchangedDocumentContext>
+<ram:GuidelineSpecifiedDocumentContextParameter>
+<ram:ID schemeAgencyID="ETDA" schemeVersionID="v2.0">ER3-2560</ram:ID>
+</ram:GuidelineSpecifiedDocumentContextParameter>
+</rsm:ExchangedDocumentContext>
+<rsm:ExchangedDocument>
+<ram:ID>IV2017110007</ram:ID> 
+<ram:Name>ใบกำกับภาษี</ram:Name>
+<ram:TypeCode>388</ram:TypeCode>
+<ram:IssueDateTime>2017-11-24T12:00:00.0</ram:IssueDateTime>
+<ram:CreationDateTime>2017-11-24T12:00:00.0</ram:CreationDateTime>
+<ram:IncludedNote>
+<ram:Subject>หมายเหตุ</ram:Subject>
+</ram:IncludedNote>
+</rsm:ExchangedDocument>
+<rsm:SupplyChainTradeTransaction>
+<ram:ApplicableHeaderTradeAgreement>
+<ram:SellerTradeParty>
+<ram:Name>Stream I.T. Consulting Ltd.</ram:Name>
+<ram:SpecifiedTaxRegistration>
+<ram:ID schemeID="TXID">010554106923700000</ram:ID>
+</ram:SpecifiedTaxRegistration>
+<ram:PostalTradeAddress>
+<ram:PostcodeCode>10120</ram:PostcodeCode>
+<ram:BuildingName>Q.House Sathorn Bldg.</ram:BuildingName>
+<ram:LineOne>7th Floor South Sathorn Rd. Tungmahamek</ram:LineOne>
+<ram:LineTwo>Sathorn Bangkok</ram:LineTwo>
+<ram:CityName>1028</ram:CityName>
+<ram:CitySubDivisionName>102803</ram:CitySubDivisionName>
+<ram:CountryID schemeID="3166-1 alpha-2">TH</ram:CountryID>
+<ram:CountrySubDivisionID>10</ram:CountrySubDivisionID>
+<ram:BuildingNumber>11</ram:BuildingNumber>
+</ram:PostalTradeAddress>
+</ram:SellerTradeParty>
+<ram:BuyerTradeParty>
+<ram:Name>บริษัท ประเทศไทย จำกัด</ram:Name>
+<ram:SpecifiedTaxRegistration>
+<ram:ID schemeID="TXID">010555105690100003</ram:ID>
+</ram:SpecifiedTaxRegistration>
+<ram:PostalTradeAddress>
+<ram:PostcodeCode>10120</ram:PostcodeCode>
+<ram:LineOne>15 ถนนนนทรี กรุงเทพฯ </ram:LineOne>
+<ram:CountryID schemeID="3166-1 alpha-2">TH</ram:CountryID>
+</ram:PostalTradeAddress>
+</ram:BuyerTradeParty>
+</ram:ApplicableHeaderTradeAgreement>
+<ram:ApplicableHeaderTradeDelivery>
+<ram:ShipToTradeParty>
+<ram:PostalTradeAddress>
+<ram:PostcodeCode>10120</ram:PostcodeCode>
+<ram:LineOne>15 ถนนนนทรี กรุงเทพฯ</ram:LineOne>
+<ram:CountryID schemeID="3166-1 alpha-2">TH</ram:CountryID>
+</ram:PostalTradeAddress>
+</ram:ShipToTradeParty>
+</ram:ApplicableHeaderTradeDelivery>
+<ram:ApplicableHeaderTradeSettlement>
+<ram:InvoiceCurrencyCode listID="ISO 4217 3A">THB</ram:InvoiceCurrencyCode>
+<ram:ApplicableTradeTax>
+<ram:TypeCode>VAT</ram:TypeCode>
+<ram:CalculatedRate>7</ram:CalculatedRate>
+<ram:BasisAmount>2000</ram:BasisAmount>
+<ram:CalculatedAmount>140</ram:CalculatedAmount>
+</ram:ApplicableTradeTax>
+<ram:SpecifiedTradeSettlementHeaderMonetarySummation>
+<ram:LineTotalAmount>2000</ram:LineTotalAmount>
+<ram:AllowanceTotalAmount>0</ram:AllowanceTotalAmount>
+<ram:TaxBasisTotalAmount>2000</ram:TaxBasisTotalAmount>
+<ram:TaxTotalAmount>140</ram:TaxTotalAmount>
+<ram:GrandTotalAmount>2140</ram:GrandTotalAmount>
+</ram:SpecifiedTradeSettlementHeaderMonetarySummation>
+</ram:ApplicableHeaderTradeSettlement>
+<ram:IncludedSupplyChainTradeLineItem> 
+<ram:AssociatedDocumentLineDocument> 
+<ram:LineID>1</ram:LineID>
+</ram:AssociatedDocumentLineDocument> 
+<ram:SpecifiedTradeProduct> 
+<ram:ID>HW-04-01-001</ram:ID>
+<ram:Name>Inkjet Printer</ram:Name>
+</ram:SpecifiedTradeProduct> 
+<ram:SpecifiedLineTradeAgreement> 
+<ram:GrossPriceProductTradePrice> 
+<ram:ChargeAmount>2000</ram:ChargeAmount>
+</ram:GrossPriceProductTradePrice> 
+</ram:SpecifiedLineTradeAgreement> 
+<ram:SpecifiedLineTradeDelivery> 
+<ram:BilledQuantity unitCode="Unit">1</ram:BilledQuantity>
+</ram:SpecifiedLineTradeDelivery> 
+<ram:SpecifiedLineTradeSettlement> 
+<ram:ApplicableTradeTax> 
+<ram:TypeCode>VAT</ram:TypeCode> 
+<ram:CalculatedRate>7</ram:CalculatedRate> 
+<ram:BasisAmount>2000</ram:BasisAmount>
+<ram:CalculatedAmount>140</ram:CalculatedAmount>
+</ram:ApplicableTradeTax> 
+<ram:SpecifiedTradeAllowanceCharge> 
+<ram:ChargeIndicator>false</ram:ChargeIndicator> 
+<ram:ActualAmount>0</ram:ActualAmount>
+</ram:SpecifiedTradeAllowanceCharge> 
+<ram:SpecifiedTradeSettlementLineMonetarySummation> 
+<ram:TaxTotalAmount>140</ram:TaxTotalAmount>
+<ram:NetLineTotalAmount currencyID="THB">2000</ram:NetLineTotalAmount> 
+<ram:NetIncludingTaxesLineTotalAmount currencyID="THB">2140</ram:NetIncludingTaxesLineTotalAmount>
+</ram:SpecifiedTradeSettlementLineMonetarySummation> 
+</ram:SpecifiedLineTradeSettlement> 
+</ram:IncludedSupplyChainTradeLineItem>
+</rsm:SupplyChainTradeTransaction>
+</rsm:TaxInvoice_CrossIndustryInvoice>

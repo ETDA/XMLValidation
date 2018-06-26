@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../data/standard/TaxInvoice_Schematron_2p0.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><rsm:TaxInvoice_CrossIndustryInvoice xmlns:ram="urn:etda:uncefact:data:standard:TaxInvoice_ReusableAggregateBusinessInformationEntity:2" xmlns:rsm="urn:etda:uncefact:data:standard:TaxInvoice_CrossIndustryInvoice:2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:etda:uncefact:data:standard:TaxInvoice_CrossIndustryInvoice:2 file:../data/standard/TaxInvoice_CrossIndustryInvoice_2p0.xsd">
+<rsm:ExchangedDocumentContext>
+	<ram:GuidelineSpecifiedDocumentContextParameter>
+		<ram:ID schemeAgencyID="ETDA" schemeVersionID="v2.0">ER3-2560</ram:ID>
+	</ram:GuidelineSpecifiedDocumentContextParameter>
+</rsm:ExchangedDocumentContext>
+<rsm:ExchangedDocument>
+	<ram:ID>6102002</ram:ID>
+	<ram:Name>ใบกำกับภาษี</ram:Name>
+	<ram:TypeCode>388</ram:TypeCode>
+	<ram:IssueDateTime>2018-02-01T00:00:00.000</ram:IssueDateTime>
+	<ram:CreationDateTime>2018-02-01T00:00:00.000</ram:CreationDateTime>
+</rsm:ExchangedDocument>
+<rsm:SupplyChainTradeTransaction>
+	<ram:ApplicableHeaderTradeAgreement>
+		<ram:SellerTradeParty>
+			<ram:Name>บริษัท ไบร์ท มีเดีย คอร์ปอเรชั่น จำกัด</ram:Name>
+			<ram:SpecifiedTaxRegistration>
+				<ram:ID schemeID="TXID">0105553063026</ram:ID>
+			</ram:SpecifiedTaxRegistration>
+			<ram:DefinedTradeContact>
+				<ram:EmailURIUniversalCommunication>
+					<ram:URIID>sales@bmco.co.th</ram:URIID>
+				</ram:EmailURIUniversalCommunication>
+				<ram:TelephoneUniversalCommunication>
+					<ram:CompleteNumber>02-938-2496</ram:CompleteNumber>
+				</ram:TelephoneUniversalCommunication>
+			</ram:DefinedTradeContact>
+			<ram:PostalTradeAddress>
+				<ram:PostcodeCode>10310</ram:PostcodeCode>
+				<ram:StreetName>รัชดาภิเษก</ram:StreetName>
+				<ram:CityName>ห้วยขวาง</ram:CityName>
+				<ram:CitySubDivisionName>สามเสนนอก</ram:CitySubDivisionName>
+				<ram:CountryID schemeID="3166-1 alpha-2">TH</ram:CountryID>
+				<ram:CountrySubDivisionID>10</ram:CountrySubDivisionID>
+				<ram:BuildingNumber>410/87-88</ram:BuildingNumber>
+			</ram:PostalTradeAddress>
+		</ram:SellerTradeParty>
+		<ram:BuyerTradeParty>
+			<ram:Name>บริษัท เดอะเบสท์ พร็อพเพอร์ตี้ จำกัด</ram:Name>
+			<ram:SpecifiedTaxRegistration>
+				<ram:ID schemeID="TXID">0105556129940</ram:ID>
+			</ram:SpecifiedTaxRegistration>
+			<ram:DefinedTradeContact>
+				<ram:EmailURIUniversalCommunication>
+					<ram:URIID>tookky5@yahoo.com</ram:URIID>
+				</ram:EmailURIUniversalCommunication>
+			</ram:DefinedTradeContact>
+			<ram:PostalTradeAddress>
+				<ram:LineOne>63 ซอยสุภาพงษ์ 3  แขวงหนองบอน เขตประเวศ กรุงเทพฯ 10250</ram:LineOne>
+			</ram:PostalTradeAddress>
+		</ram:BuyerTradeParty>
+	</ram:ApplicableHeaderTradeAgreement>
+	<ram:ApplicableHeaderTradeDelivery>
+		<ram:ShipToTradeParty>
+			<ram:DefinedTradeContact></ram:DefinedTradeContact>
+		</ram:ShipToTradeParty>
+	</ram:ApplicableHeaderTradeDelivery>
+	<ram:ApplicableHeaderTradeSettlement>
+		<ram:InvoiceCurrencyCode listID="ISO 4217 3A">THB</ram:InvoiceCurrencyCode>
+		<ram:ApplicableTradeTax>
+			<ram:TypeCode>VAT</ram:TypeCode>
+			<ram:CalculatedRate>7.00</ram:CalculatedRate>
+			<ram:BasisAmount>5000.00</ram:BasisAmount>
+			<ram:CalculatedAmount>350.00</ram:CalculatedAmount>
+		</ram:ApplicableTradeTax>
+		<ram:SpecifiedTradeSettlementHeaderMonetarySummation>
+			<ram:LineTotalAmount>5000.00</ram:LineTotalAmount>
+			<ram:TaxBasisTotalAmount>5000.00</ram:TaxBasisTotalAmount>
+			<ram:TaxTotalAmount>350.00</ram:TaxTotalAmount>
+			<ram:GrandTotalAmount>5350.00</ram:GrandTotalAmount>
+		</ram:SpecifiedTradeSettlementHeaderMonetarySummation>
+	</ram:ApplicableHeaderTradeSettlement>
+				<ram:IncludedSupplyChainTradeLineItem>
+					<ram:AssociatedDocumentLineDocument>
+						<ram:LineID>1</ram:LineID>
+					</ram:AssociatedDocumentLineDocument>
+					<ram:SpecifiedTradeProduct>
+						<ram:ID>ADWORDS003</ram:ID>
+						<ram:Name>งบค่าคลิ๊ก Google Adwords  <br />
+www.thebestpropertygroup.com</ram:Name>
+					</ram:SpecifiedTradeProduct>
+					<ram:SpecifiedLineTradeAgreement>
+						<ram:GrossPriceProductTradePrice>
+							<ram:ChargeAmount>5000.00</ram:ChargeAmount>
+						</ram:GrossPriceProductTradePrice>
+					</ram:SpecifiedLineTradeAgreement>
+					<ram:SpecifiedLineTradeDelivery>
+						<ram:BilledQuantity unitCode="ZZ">1</ram:BilledQuantity>
+					</ram:SpecifiedLineTradeDelivery>
+					<ram:SpecifiedLineTradeSettlement>
+						<ram:SpecifiedTradeSettlementLineMonetarySummation>
+							<ram:TaxTotalAmount>350.00</ram:TaxTotalAmount>
+							<ram:NetLineTotalAmount>5000.00</ram:NetLineTotalAmount>
+							<ram:NetIncludingTaxesLineTotalAmount>5350.00</ram:NetIncludingTaxesLineTotalAmount>
+						</ram:SpecifiedTradeSettlementLineMonetarySummation>
+					</ram:SpecifiedLineTradeSettlement>
+				</ram:IncludedSupplyChainTradeLineItem></rsm:SupplyChainTradeTransaction></rsm:TaxInvoice_CrossIndustryInvoice>
