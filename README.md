@@ -34,6 +34,13 @@ Packaging environment
 
 ## Changelog
 
+### [0.2.3] - 2018-05-11
+**Change** 
+- XML root node detect
+
+**Add**
+- New test file about XML root node detect 
+
 ### [0.2.2] - 2018-05-11
 **Update** 
 - Remove System.out.println due to GOlang problem on Docker
