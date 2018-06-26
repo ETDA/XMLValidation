@@ -13,6 +13,11 @@ public class App
 {
     public static void main( String[] args )
     {
+    	/*
+    	 *  String inputXML = "src\\test\\resources\\INV71600001.xml";
+		 *	String config = "src\\test\\resources\\web_validation_config.properties";
+		 */
+    	
     	String inputXML = args[0];
 		String config = args[1];
     	
