@@ -93,7 +93,7 @@ public class ValidateController {
 			return jsonResponse.getJSONResponseObj();
 		}
 		
-		// Check root is exist and is Active 
+		// Check root is exist 
 		if(!isRootExist()) {
 			jsonResponse.setCode("-2");
 			return jsonResponse.getJSONResponseObj();
@@ -127,6 +127,7 @@ public class ValidateController {
 			jsonResponse.setCode("-99");
 			return jsonResponse.getJSONResponseObj();
 		}		
+		
 		//ValidateXML with Schema
 		boolean schemaValid = false ; 
 		try {
